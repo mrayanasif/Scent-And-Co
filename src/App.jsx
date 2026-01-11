@@ -1,29 +1,49 @@
 import { useState } from 'react'
 import './App.css'
+import NavbarComponent from './components/NavbarComponent'
+import AboutUsComponent from './components/AboutUsComponent'
+import FooterComponent from './components/FooterComponent'
+import MensComponent from './components/MensComponent'
+import WomensComponent from './components/WomensComponent'
 
 function App() {
   return (
     <>
-      <nav>
-    <img src="/vite.svg" alt=""/>
-    <ul>
-    <li>Home</li>
-      <li>About Us</li>
-        <li>Categories</li>
-          <li>Checkout</li>
-          </ul>
-          <div className="act-btns">
-        <button>Login</button>
-        <button>Sign Up</button>
-      </div>
-      </nav>
+  {/* navbar start */}
+
+      <NavbarComponent/>
+
+   {/* navbar end */}
+
+   {/* About us start */}
       
-      <section>
-        <div className="banner">
-          <img src="/Car Bannerr.avif " alt="" />
-        </div>
-        <h1>Lets Start The Journey</h1>
-      </section>
+      <AboutUsComponent/>
+
+    {/* about us end  */}
+
+<br></br>
+
+     {/* mrn collection startt */}
+
+      <MensComponent/>
+
+    {/* men collection end */}
+
+<br></br>
+
+      {/* women collection startt */}
+
+      <WomensComponent/>
+
+      {/* women collection end */}
+
+<br></br>
+
+      {/* footer start */}
+
+      <FooterComponent/>
+
+      {/* footer end */}
     </>
   )
 }

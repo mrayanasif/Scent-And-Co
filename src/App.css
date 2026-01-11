@@ -1,7 +1,7 @@
 
 nav{
   display:flex;
-  background-color: rgba(9, 9, 91, 0.732);
+  background-color: rgb(0, 0, 0);
   justify-content: space-between;
   padding: 10px;
   align-items: center;
@@ -14,7 +14,274 @@ nav ul{
   justify-content: space-between;
   width: 50%;
 }
+/* banner image  */
 .banner img{
   width: 100%;
   
+}
+.header-logo{ 
+letter-spacing: 4px;
+color: #c5a059; 
+
+}
+/* card layout */
+.container {
+  padding: 50px;
+  text-align: center;
+  background-color: #fcfcfc;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #b8926a;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cart-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: auto; 
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.product-features {
+  list-style: none; 
+  padding: 0;
+  margin: 15px 0;
+}
+
+.product-features li {
+  font-size: 15px;
+  color: #860b0b;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Styling the card */
+.card {
+  background: white;
+  border: 1px solid #eee;
+  padding: 15px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin: 15px 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.price {
+  color: #b8926a; 
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.cart-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background-color: #444;
+}
+/* about uss */ 
+
+/* Small label above the title Since wala */
+.hero-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #c5a059; 
+  font-size: 14px;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+/* Main Heading of about us */
+.hero-title {
+  font-size: 64px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 2px;  
+  margin-left: 10px;  
+}
+
+/* Description text about us ka */
+.hero-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #0d0c0c;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.hero-btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #c5a059;
+  color: black;
+  padding: 15px 35px;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #e0bc7a;
+}
+
+.btn-outline {
+ background-color: #0d0c0c;
+  color: white;
+  padding: 15px 35px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: black;
+}
+.footer-container {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  padding: 80px 10% 20px 10%;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.footer-brand {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-logo {
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  color: #c5a059; 
+}
+
+.footer-brand p {
+  color: #888;
+  line-height: 1.6;
+  font-size: 14px;
+}
+.footer-links h3, .footer-newsletter h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  color: #c5a059;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+  color: #888;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-links li:hover {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+
+.footer-newsletter {
+  flex: 1;
+  min-width: 250px;
+}
+
+.newsletter-input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.newsletter-input input {
+  background: transparent;
+  border: 1px solid #333;
+  padding: 12px;
+  color: white;
+  width: 100%;
+  outline: none;
+}
+
+.newsletter-input button {
+  background-color: #c5a059;
+  border: none;
+  padding: 0 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.footer-bottom {
+  border-top: 1px solid #1a1a1a;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #555;
 }
